@@ -3,14 +3,13 @@ import stocks as stocks
 from datetime import datetime
 import pandas as pd
 import strategy as strategy
-import TradingBot 
 from ibapi.client import EClient
 from ibapi.wrapper import EWrapper
 from ibapi.contract import Contract
 from ibapi.order import Order
 import threading
 import time
-
+import LogicBot
 
 class IBapi(EWrapper, EClient):
 	def __init__(self):
