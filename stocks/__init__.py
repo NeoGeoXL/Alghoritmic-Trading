@@ -32,6 +32,7 @@ def take_profit_long(precio,beneficio):
 def stop_loss_short(precio,riesgo):
     stop_loss=precio+(precio*riesgo)
     return stop_loss
+    
 def take_profit_short(precio,beneficio):
     take_profit=precio-(precio*beneficio)
     return take_profit
